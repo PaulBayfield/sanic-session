@@ -1,8 +1,5 @@
 from setuptools import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 # Set requirements here
 requirements = (
     "sanic",
@@ -38,8 +35,6 @@ setup(
         "Provides server-backed sessions for Sanic "
         "using Redis, Memcache and more."
     ),
-    long_description=long_description,
-    long_description_content_type="text/markdown",
     url="http://github.com/subyraman/sanic_session",
     author="Suby Raman, Mikhail Kashkin, Adam Hopkins",
     author_email="adam@amhopkins.com",
